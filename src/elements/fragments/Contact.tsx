@@ -1,5 +1,3 @@
-import type React from "react";
-import { useState } from "react";
 import HeadingText from "../components/HeadingText";
 
 const contactMethods = [
