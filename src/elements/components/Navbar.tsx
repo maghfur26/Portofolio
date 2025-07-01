@@ -20,10 +20,10 @@ export default function Navbar() {
   }, [scrollActive]);
   return (
     <div
-      className={`w-full h-20 transition ease-in-out fixed  ${
+      className={`w-full h-20 transition ease-in-out fixed z-50  ${
         scrollActive
           ? " top-0 bg-slate-950/50 backdrop-blur-sm shadow-md"
-          : "bg-slate-950"
+          : "bg-slate-950/80"
       }`}
     >
       <div className="font-poppins w-full h-full px-6 md:px-14 text-white absolute top-0 flex items-center justify-between">
