@@ -1,9 +1,9 @@
-import Me from "../../../public/me.png";
+import Me from "../../assets/me.png";
 import HeadingText from "../components/HeadingText";
 
 function About() {
   return (
-    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20">
+    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20" id="about">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
           <HeadingText text="About Me" />

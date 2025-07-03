@@ -6,8 +6,8 @@ const contactMethods = [
     icon: "📧",
     title: "Email",
     description: "Drop me a line anytime",
-    contact: "hello@example.com",
-    link: "mailto:hello@example.com",
+    contact: "maghfurhasani9@gmail.com",
+    link: "mailto:maghfurhasani9@gmail",
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -15,7 +15,7 @@ const contactMethods = [
     icon: "📱",
     title: "Phone",
     description: "Call me for urgent matters",
-    contact: "+62 812-3456-7890",
+    contact: "+62 857-2752-2179",
     link: "tel:+6281234567890",
     color: "from-green-500 to-emerald-500",
   },
@@ -23,9 +23,8 @@ const contactMethods = [
     id: 3,
     icon: "🌍",
     title: "Location",
-    description: "Based in Jakarta, Indonesia",
-    contact: "Jakarta, Indonesia",
-    link: "#",
+    description: "Based in Pemalang, Indonesia",
+    contact: "Pemalang, Indonesia",
     color: "from-purple-500 to-pink-500",
   },
 ];
@@ -34,13 +33,13 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: "💼",
-    url: "#",
+    url: "https://www.linkedin.com/in/maghfur-hasani-60a497315",
     color: "hover:text-blue-400",
   },
   {
     name: "GitHub",
     icon: "🐙",
-    url: "#",
+    url: "https://github.com/maghfur26",
     color: "hover:text-gray-400",
   },
   {
@@ -59,7 +58,7 @@ const socialLinks = [
 
 export default function Contact() {
   return (
-    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20">
+    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20" id="contact">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="mb-16 text-center">
@@ -82,7 +81,7 @@ export default function Contact() {
               </h2>
               <div className="space-y-4">
                 {contactMethods.map((method) => (
-                  <a key={method.id} href={method.link} className="group block">
+                  <a key={method.id} href={method.link} className="group block" target="_blank">
                     <div className="relative">
                       <div
                         className={`absolute -inset-1 bg-gradient-to-r ${method.color} rounded-xl blur opacity-20 group-hover:opacity-40 transition-opacity duration-300`}
@@ -121,6 +120,7 @@ export default function Contact() {
                   <a
                     key={social.name}
                     href={social.url}
+                    target="_blank"
                     className={`group bg-slate-900 p-4 rounded-xl border border-slate-800 hover:border-slate-700 transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-lg text-center ${social.color}`}
                   >
                     <div className="text-2xl mb-2">{social.icon}</div>

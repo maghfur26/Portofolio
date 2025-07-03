@@ -5,6 +5,7 @@ import Particles from "../elements/components/Particles";
 import About from "../elements/fragments/About";
 import Portfolio from "../elements/fragments/Portofolio";
 import Contact from "../elements/fragments/Contact";
+import Sertifikat from "../elements/fragments/Sertifikat";
 
 const HomePages = () => {
   return (
@@ -65,7 +66,8 @@ const HomePages = () => {
       <div className="bg-slate-950 py-10">
         <About />
         <Portfolio />
-        <Contact/>
+        <Sertifikat />
+        <Contact />
       </div>
     </div>
   );

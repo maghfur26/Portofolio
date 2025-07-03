@@ -1,75 +1,49 @@
 import HeadingText from "../components/HeadingText";
+import GymImage from "../../assets/gym.png"
+import RentalImage from "../../assets/rental.png"
 
 const portfolioData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Studio Rental Platform",
     description:
-      "A modern e-commerce platform built with React and Node.js featuring real-time inventory management and secure payment processing.",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    link: "#",
+      "I created a rental platform using React, Node.js, and MongoDB. It allows users to rent studios for various events and activities.",
+    image: RentalImage,
+    tags: ["React", "Node.js", "MongoDB"],
+    link: "https://rental-music.vercel.app/",
     github: "#",
     featured: true,
   },
   {
     id: 2,
-    title: "Task Management App",
+    title: "Simple landing page gymnesium",
     description:
-      "Collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
-    image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-    tags: ["React", "Firebase", "Tailwind CSS"],
-    link: "#",
+      "then I learned typeScript and created a simple landing page for gymnesium.",
+    image: GymImage,
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    link: "https://landing-pages-gymnesium.vercel.app/",
     github: "#",
-    featured: false,
+    featured: true,
   },
   {
     id: 3,
-    title: "Weather Dashboard",
+    title: "Simple landing page gymnesium",
     description:
-      "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-    image:
-      "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-    tags: ["JavaScript", "API Integration", "Chart.js"],
-    link: "#",
+      "then I learned typeScript and created a simple landing page for gymnesium.",
+    image: GymImage,
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    link: "https://landing-pages-gymnesium.vercel.app/",
     github: "#",
     featured: false,
   },
   {
     id: 4,
-    title: "Social Media Dashboard",
+    title: "Studio Rental Platform",
     description:
-      "Comprehensive social media analytics dashboard with real-time data visualization and engagement metrics.",
-    image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    tags: ["React", "D3.js", "REST API"],
-    link: "#",
-    github: "#",
-    featured: true,
-  },
-  {
-    id: 5,
-    title: "Restaurant Website",
-    description:
-      "Modern restaurant website with online reservation system, menu showcase, and customer review integration.",
-    image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop",
-    tags: ["HTML", "CSS", "JavaScript", "PHP"],
-    link: "#",
-    github: "#",
-    featured: false,
-  },
-  {
-    id: 6,
-    title: "Portfolio Website",
-    description:
-      "Personal portfolio website with interactive animations, smooth scrolling, and responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-    tags: ["React", "Framer Motion", "Tailwind CSS"],
-    link: "#",
+      "I created a rental platform using React, Node.js, and MongoDB. It allows users to rent studios for various events and activities.",
+    image: RentalImage,
+    tags: ["React", "Node.js", "MongoDB"],
+    link: "https://rental-music.vercel.app/",
     github: "#",
     featured: false,
   },
@@ -77,7 +51,7 @@ const portfolioData = [
 
 function Portfolio() {
   return (
-    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20">
+    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20" id="portfolio">
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-16 text-center">
@@ -170,7 +144,7 @@ function Portfolio() {
               .filter((project) => !project.featured)
               .map((project) => (
                 <div key={project.id} className="group">
-                  <div className="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-900/50">
+                  <div className="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-slate-900/50 h-full">
                     {/* Image */}
                     <div className="relative overflow-hidden">
                       <img
@@ -212,6 +186,7 @@ function Portfolio() {
                         <a
                           href={project.link}
                           className="flex-1 bg-gradient-to-r from-cyan-500 to-purple-500 text-white px-3 py-2 rounded-lg text-sm font-medium text-center hover:shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
+                          target="_blank"
                         >
                           Demo
                         </a>
