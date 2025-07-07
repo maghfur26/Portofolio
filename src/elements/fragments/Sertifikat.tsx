@@ -5,6 +5,7 @@ import Sertif3 from "../../assets/sertif3.png";
 import Sertif4 from "../../assets/sertif4.png";
 import Sertif5 from "../../assets/sertif5.png";
 import Sertif6 from "../../assets/sertif6.png";
+import Sertif7 from "../../assets/sertif7.png";
 
 const certificateData = [
   {
@@ -93,6 +94,28 @@ const certificateData = [
       "Learning HTML, CSS, and JavaScript to build user interfaces for web applications.",
     image: Sertif6,
     skills: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+  },
+  {
+    id: 9,
+    title: "Web Developer",
+    issuer: "BNSP",
+    date: "2025",
+    description:
+      "This certificate is a official proof from the National Professional Certification Agency (BNSP) stating that a person has recognized competence in the field of web development, in accordance with the Indonesian National Work Competency Standards (SKKNI).",
+    image: Sertif7,
+    skills: ["web development"],
+    featured: true,
+  },
+  {
+    id: 10,
+    title: "Web Developer",
+    issuer: "BNSP",
+    date: "2025",
+    description:
+      "This certificate is a official proof from the National Professional Certification Agency (BNSP) stating that a person has recognized competence in the field of web development, in accordance with the Indonesian National Work Competency Standards (SKKNI).",
+    image: Sertif7,
+    skills: ["web development"],
     featured: false,
   },
 ];
