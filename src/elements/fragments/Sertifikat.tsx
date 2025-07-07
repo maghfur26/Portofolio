@@ -6,6 +6,7 @@ import Sertif4 from "../../assets/sertif4.png";
 import Sertif5 from "../../assets/sertif5.png";
 import Sertif6 from "../../assets/sertif6.png";
 import Sertif7 from "../../assets/sertif7.png";
+import Sertif8 from "../../assets/sertif8.png";
 
 const certificateData = [
   {
@@ -118,6 +119,28 @@ const certificateData = [
     skills: ["web development"],
     featured: false,
   },
+  {
+    id: 11,
+    title: "Fundamental PHP",
+    issuer: "Codepolitan",
+    date: "2024",
+    description:
+      "Learning Fundamental PHP, function, object, array, dom manipulation, and event handling and more",
+    image: Sertif8,
+    skills: ["PHP"],
+    featured: false,
+  },
+  {
+    id: 12,
+    title: "Fundamental PHP",
+    issuer: "Codepolitan",
+    date: "2024",
+    description:
+      "Learning Fundamental PHP, function, object, array, dom manipulation, and event handling and more",
+    image: Sertif8,
+    skills: ["PHP"],
+    featured: false,
+  }
 ];
 
 function Sertifikat() {
