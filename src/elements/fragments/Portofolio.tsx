@@ -1,6 +1,6 @@
 import HeadingText from "../components/HeadingText";
-import GymImage from "../../assets/gym.png"
-import RentalImage from "../../assets/rental.png"
+import GymImage from "../../assets/gym.png";
+import RentalImage from "../../assets/rental.png";
 
 const portfolioData = [
   {
@@ -10,7 +10,7 @@ const portfolioData = [
       "I created a rental platform using React, Node.js, and MongoDB. It allows users to rent studios for various events and activities.",
     image: RentalImage,
     tags: ["React", "Node.js", "MongoDB"],
-    link: "https://rental-music.vercel.app/",
+    link: "https://fe-ceria-musix.vercel.app/",
     github: "#",
     featured: true,
   },
@@ -51,7 +51,10 @@ const portfolioData = [
 
 function Portfolio() {
   return (
-    <div className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20" id="portfolio">
+    <div
+      className="w-full min-h-screen bg-slate-950 px-6 py-16 md:px-12 lg:px-20"
+      id="portfolio"
+    >
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-16 text-center">
