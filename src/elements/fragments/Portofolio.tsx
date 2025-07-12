@@ -9,7 +9,7 @@ const portfolioData = [
     description:
       "I created a rental platform using React, Node.js, and MongoDB. It allows users to rent studios for various events and activities.",
     image: RentalImage,
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
     link: "https://fe-ceria-musix.vercel.app/",
     github: "#",
     featured: true,
@@ -42,8 +42,8 @@ const portfolioData = [
     description:
       "I created a rental platform using React, Node.js, and MongoDB. It allows users to rent studios for various events and activities.",
     image: RentalImage,
-    tags: ["React", "Node.js", "MongoDB"],
-    link: "https://rental-music.vercel.app/",
+    tags: ["React", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
+    link: "https://fe-ceria-musix.vercel.app/",
     github: "#",
     featured: false,
   },
