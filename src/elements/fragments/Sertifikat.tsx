@@ -139,7 +139,7 @@ const certificateData = [
       "Learning Fundamental PHP, function, object, array, dom manipulation, and event handling and more",
     image: Sertif8,
     skills: ["PHP"],
-    featured: false,
+    featured: true,
   }
 ];
 

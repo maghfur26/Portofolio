@@ -62,8 +62,12 @@ function About() {
                   "HTML",
                   "CSS",
                   "JavaScript",
+                  "Typescript",
                   "React",
                   "Node.js",
+                  "MongoDB",
+                  "PostgreSQL",
+                  "express.js",
                   "Tailwind CSS",
                 ].map((tech) => (
                   <span
