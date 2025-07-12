@@ -52,7 +52,7 @@ export default function Navbar() {
               className="text-2xl font-bold cursor-pointer"
               onClick={() => handleClick("home")}
             >
-              Logo
+              MaghfurHasani
             </h1>
           </div>
 
