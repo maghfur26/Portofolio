@@ -7,7 +7,7 @@ const MainLayout = () => {
       <header>
         <Navbar />
       </header>
-      <main className="w-full h-full bg-slate-950">
+      <main className="w-full h-full bg-surface">
         <Outlet />
       </main>
     </>

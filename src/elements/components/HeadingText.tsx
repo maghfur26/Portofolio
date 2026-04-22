@@ -1,23 +1,20 @@
 type Props = {
   text: string;
+  subtitle?: string;
 };
 
-const HeadingText = (props: Props) => {
+const HeadingText = ({ text, subtitle }: Props) => {
   return (
-    <header className="font-poppins text-center">
-      <h1
-        className="text-2xl font-bold text-white animate-pulse"
-        style={{
-          textShadow: `
-              0 0 5px #8D00CF,
-              0 0 10px #8D00CF,
-              0 0 20px #8D00CF,
-              0 0 40px #8D00CF
-            `,
-        }}
-      >
-        {props.text}
-      </h1>
+    <header className="font-poppins">
+      <h2 className="text-3xl md:text-4xl font-bold text-text-primary tracking-tight">
+        {text}
+      </h2>
+      <div className="mt-4 w-12 h-1 bg-accent rounded-full"></div>
+      {subtitle && (
+        <p className="mt-5 text-text-secondary text-lg max-w-2xl leading-relaxed">
+          {subtitle}
+        </p>
+      )}
     </header>
   );
 };
