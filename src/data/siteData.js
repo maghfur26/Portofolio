@@ -83,8 +83,8 @@ export const siteData = {
   // ============================================================
   socials: [
     { name: "WhatsApp", icon: "whatsapp", url: "https://wa.me/6281297980835" },
-    { name: "Instagram", icon: "instagram", url: "https://instagram.com/maghfurhasani" },
-    { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/maghfurhasani" },
+    { name: "Instagram", icon: "instagram", url: "https://instagram.com/maghfurhasani_26" },
+    { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/in/maghfur-hasani-60a497315" },
   ],
 
   // ============================================================
